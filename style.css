@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: #ccbcbc;
+    color: #333;
+}
+
+.container {
+    min-height: 100px;
+    width: 400px;
+    background: #f7f314;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 20px 50px #f7f314, 3px 10px 12px #000;
+}
+
+.container .content {
+    border-bottom: 2px solid #333;
+}
+
+.container .content #days,
+.container .content #today,
+.container .content #months {
+    font-size: 2.5rem;
+}
+
